@@ -81,7 +81,7 @@ table tr td { width: 110px; }
 table tr.high td { height: 70px; }
 table tr.med td { height: 30px; }
 table tr td { text-align: center; }
-table tr td.sym { font-size: 36px; }
+table tr td.sym { font-size: 42px; padding-top: 12px; }
 table tr.dates td { font-weight: bold; padding-bottom: 15px; }
 table tr.dates td, table tr.positions td { font-size: 12px; }
 

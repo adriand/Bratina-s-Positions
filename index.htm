@@ -82,7 +82,7 @@
         
         for(i = 0; i < positions.length; i++) {
           symbols = ["&nbsp;","&nbsp;","&nbsp;"];
-          symbols[positions[i].temp] = "&#x25C9;";
+          symbols[positions[i].temp] = "*";
           for(j = 0; j < 3; j++) {
             $("tr." + j).append("<td class='sym'>" + symbols[j] + "</td>");
           }          
